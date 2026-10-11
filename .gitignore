@@ -1,0 +1,41 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.venv/
+venv/
+.env
+*.log
+
+# Flutter
+build/
+.dart_tool/
+.gradle/
+.idea/
+*.iml
+local.properties
+
+# Flutter/Dart chuẩn
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.metadata.bak
+*.class
+*.swp
+.DS_Store
+coverage/
+
+# Bí mật và sản phẩm build: không bao giờ commit
+key.properties
+**/key.properties
+*.jks
+*.keystore
+*.pem
+*.p12
+*.apk
+*.aab
+.env.*

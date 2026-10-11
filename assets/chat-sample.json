@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "disclaimer": "Bản thiết kế mẫu – nội dung hư cấu",
+  "notes": "Toàn bộ tên, nội dung, tệp, liên kết đều hư cấu. dayOffset: 0 = Hôm nay, -1 = Hôm qua, âm hơn = N ngày trước (app tự đổi thành nhãn ngày). time = HH:mm. Lược đồ 1.0 theo spec-chat-ui-mobile.md.",
+  "participants": {
+    "me": { "id": "me", "name": "Lê Quân", "initials": "Q", "avatarColor": "#5B7C99" },
+    "peer": {
+      "id": "peer",
+      "name": "Mai An",
+      "initials": "MA",
+      "avatarColor": "#7A5C8E",
+      "status": "Đang hoạt động"
+    }
+  },
+  "messages": [
+    { "id": 1, "from": "peer", "dayOffset": -3, "time": "09:12", "type": "text", "text": "Chào anh Quân, em là An bên studio nội thất Tre Xanh ạ." },
+    { "id": 2, "from": "peer", "dayOffset": -3, "time": "09:13", "type": "text", "text": "Bên em đang cần làm một trang giới thiệu sản phẩm, anh có rảnh nhận dự án không ạ?" },
+    { "id": 3, "from": "me", "dayOffset": -3, "time": "09:20", "type": "text", "text": "Chào An, anh đang rảnh. Em kể sơ qua yêu cầu giúp anh nhé.", "status": "seen" },
+    { "id": 4, "from": "peer", "dayOffset": -3, "time": "09:24", "type": "text", "text": "Dạ, em gửi anh bản mô tả dự án trước nhé 📄" },
+    { "id": 5, "from": "peer", "dayOffset": -3, "time": "09:24", "type": "file", "file": { "name": "mo-ta-du-an-tre-xanh.pdf", "kind": "pdf", "sizeBytes": 1887436, "sizeLabel": "1,8 MB", "typeLabel": "Tài liệu PDF" } },
+    { "id": 6, "from": "me", "dayOffset": -3, "time": "09:41", "type": "text", "text": "Anh đọc xong rồi. Phạm vi khá rõ, có 5 trang chính đúng không em?", "status": "seen" },
+    { "id": 7, "from": "peer", "dayOffset": -3, "time": "09:43", "type": "text", "text": "Đúng ạ. Trang chủ, sản phẩm, câu chuyện thương hiệu, tin tức và liên hệ." },
+    { "id": 8, "from": "me", "dayOffset": -3, "time": "09:45", "type": "text", "text": "Ok. Em có sẵn ngân sách và thời hạn mong muốn chưa?", "status": "seen" },
+    { "id": 9, "from": "peer", "dayOffset": -3, "time": "10:02", "type": "text", "text": "Em có bảng dự toán và lịch dự kiến đây ạ.\nAnh xem giúp em, có gì chưa hợp lý thì mình chỉnh." },
+    { "id": 10, "from": "peer", "dayOffset": -3, "time": "10:02", "type": "file", "file": { "name": "du-toan-va-lich-trinh.xlsx", "kind": "xlsx", "sizeBytes": 245760, "sizeLabel": "240 KB", "typeLabel": "Bảng tính Excel" } },
+    { "id": 11, "from": "me", "dayOffset": -3, "time": "10:30", "type": "text", "text": "Nhận được rồi. Để anh xem kỹ buổi chiều, tối anh phản hồi.", "status": "seen" },
+    { "id": 12, "from": "me", "dayOffset": -3, "time": "21:05", "type": "text", "text": "Anh xem xong rồi. Lịch 6 tuần là ổn, nhưng khâu chụp ảnh sản phẩm nên tách riêng ra.", "status": "seen" },
+    { "id": 13, "from": "me", "dayOffset": -3, "time": "21:06", "type": "text", "text": "Nếu em đồng ý thì anh sẽ nhận dự án 👍", "status": "seen" },
+
+    { "id": 14, "from": "peer", "dayOffset": -1, "time": "08:30", "type": "text", "text": "Chào buổi sáng anh! Em đồng ý tách phần chụp ảnh ạ 😊" },
+    { "id": 15, "from": "peer", "dayOffset": -1, "time": "08:31", "type": "text", "text": "Em gửi thêm ảnh phối cảnh phong cách mà bên em thích để anh tham khảo." },
+    { "id": 16, "from": "peer", "dayOffset": -1, "time": "08:31", "type": "image", "image": { "name": "phoi-canh-phong-cach.png", "sizeLabel": "2,4 MB", "typeLabel": "Ảnh minh họa", "gradient": ["#C9B79C", "#6F8F72"], "aspect": 1.5, "caption": "Gam màu gỗ sáng và xanh lá dịu" } },
+    { "id": 17, "from": "me", "dayOffset": -1, "time": "09:02", "type": "text", "text": "Đẹp đó em. Màu này hợp với tên Tre Xanh, anh sẽ dựa vào đó dựng bảng màu.", "status": "seen" },
+    { "id": 18, "from": "peer", "dayOffset": -1, "time": "09:05", "type": "text", "text": "Dạ vâng ạ. Anh cho em xin lịch họp đầu tuần nhé." },
+    { "id": 19, "from": "me", "dayOffset": -1, "time": "09:10", "type": "text", "text": "Thứ Hai tuần sau, 14:00, họp online khoảng 45 phút được không em?", "status": "seen" },
+    { "id": 20, "from": "peer", "dayOffset": -1, "time": "09:12", "type": "text", "text": "Được ạ!" },
+    { "id": 21, "from": "peer", "dayOffset": -1, "time": "09:12", "type": "text", "text": "Em tạo phòng họp rồi, link đây anh nhé:" },
+    { "id": 22, "from": "peer", "dayOffset": -1, "time": "09:12", "type": "link", "link": { "title": "Phòng họp dự án Tre Xanh", "url": "https://example.com/hop/tre-xanh", "domain": "example.com", "description": "Họp khởi động dự án, Thứ Hai 14:00" } },
+    { "id": 23, "from": "me", "dayOffset": -1, "time": "09:15", "type": "text", "text": "Anh đã ghi vào lịch. Hẹn em thứ Hai!", "status": "seen" },
+    { "id": 24, "from": "me", "dayOffset": -1, "time": "17:48", "type": "text", "text": "À, em nhớ chuẩn bị sẵn logo bản vector và danh sách sản phẩm chính, phần mô tả ngắn và giá tham khảo cho từng món nữa nhé. Có đủ rồi thì anh dựng khung trang nhanh hơn nhiều.", "status": "seen" },
+
+    { "id": 25, "from": "peer", "dayOffset": 0, "time": "07:55", "type": "text", "text": "Dạ em có rồi, tối nay em gom lại gửi anh ạ." },
+    { "id": 26, "from": "peer", "dayOffset": 0, "time": "07:56", "type": "text", "text": "Anh ơi, em muốn hỏi thêm: trang web có cần hỗ trợ điện thoại không ạ?" },
+    { "id": 27, "from": "me", "dayOffset": 0, "time": "08:10", "type": "text", "text": "Có chứ em, phần lớn khách xem bằng điện thoại. Anh sẽ làm giao diện co giãn theo màn hình.", "status": "seen" },
+    { "id": 28, "from": "peer", "dayOffset": 0, "time": "08:11", "type": "text", "text": "Tuyệt quá ạ 🎉" },
+    { "id": 29, "from": "me", "dayOffset": 0, "time": "08:14", "type": "text", "text": "Anh gửi em checklist đầu việc tuần này, em xem có thiếu gì không nhé.", "status": "delivered" },
+    { "id": 30, "from": "me", "dayOffset": 0, "time": "08:14", "type": "file", "file": { "name": "checklist-tuan-1.pdf", "kind": "pdf", "sizeBytes": 358400, "sizeLabel": "350 KB", "typeLabel": "Tài liệu PDF" }, "status": "delivered" },
+    { "id": 31, "from": "peer", "dayOffset": 0, "time": "08:20", "type": "text", "text": "Em nhận được rồi ạ, em đọc xong sẽ báo lại ngay." },
+    { "id": 32, "from": "me", "dayOffset": 0, "time": "08:22", "type": "text", "text": "Ok em, không gấp đâu. Cảm ơn An nhé!", "status": "sent" }
+  ]
+}
